@@ -13,8 +13,7 @@ Before using `jtab`, make sure you have Go installed on your system.
 Clone this repository and build the executable:
 
 ```bash
-git clone https://github.com/yourusername/jtab.git
-
+git clone https://github.com/Ghalib-craftLeProgrammeur/Jtab
 cd jtab
 go build jtab.go
 ```
