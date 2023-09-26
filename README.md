@@ -67,7 +67,7 @@ This will display the JSON data in a tabular format:
 ### Customization
 You can customize the jtab tool to fit your needs. For example, you can modify the table style using the SetStyle method or add more formatting options.
 
-Dependencies:
+### Dependencies:
 
 [go-pretty](https://pkg.go.dev/github.com/jedib0t/go-pretty/v6/table) - A library for rendering and formatting tables in the terminal.
 License
