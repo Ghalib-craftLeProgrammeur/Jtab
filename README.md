@@ -14,25 +14,27 @@ Clone this repository and build the executable:
 
 ```bash
 git clone https://github.com/yourusername/jtab.git
+
 cd jtab
 go build jtab.go
+```
 Usage
 To use jtab, provide a JSON file as a command-line argument:
 
-bash
-Copy code
-./jtab <JSON file>
+```bash
+jtab.exe <JSON file>
+```
 Replace <JSON file> with the path to your JSON file.
 
-Features
+### Features
 Reads JSON data from a file.
 Formats the data as a table.
 Supports displaying structured data in a more readable way.
 Example
 Assuming you have a JSON file named data.json with the following content:
 
-json
-Copy code
+```json
+
 [
   {
     "name": "John",
@@ -45,22 +47,24 @@ Copy code
     "city": "San Francisco"
   }
 ]
+```
 You can format it as a table like this:
 
-bash
-Copy code
+```bash
 ./jtab data.json
+```
 This will display the JSON data in a tabular format:
 
-sql
-Copy code
+```sql
+
 ┌─────┬─────┬────────────────┐
 │ age │ city│ name           │
 ├─────┼─────┼────────────────┤
 │ 30  │ New York   │ John   │
 │ 25  │ San Francisco  │ Alice  │
 └─────┴─────┴────────────────┘
-Customization
+```
+### Customization
 You can customize the jtab tool to fit your needs. For example, you can modify the table style using the SetStyle method or add more formatting options.
 
 Dependencies
